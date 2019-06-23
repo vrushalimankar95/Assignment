@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:gravity="center"
+            android:bottom="65dp"
+            android:left="65dp"
+            android:right="65dp"
+            android:top="65dp">
+        <animated-rotate
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/ic_loading"
+                android:fromDegrees="0"
+                android:toDegrees="360"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:repeatCount="infinite"/>
+    </item>
+</layer-list>
